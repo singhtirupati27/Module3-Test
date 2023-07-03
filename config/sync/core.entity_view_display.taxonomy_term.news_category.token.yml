@@ -1,0 +1,22 @@
+uuid: a058dbf9-4b74-42fd-abc3-1a6a667ac85a
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.token
+    - taxonomy.vocabulary.news_category
+  module:
+    - text
+id: taxonomy_term.news_category.token
+targetEntityType: taxonomy_term
+bundle: news_category
+mode: token
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
