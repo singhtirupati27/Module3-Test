@@ -1,0 +1,14 @@
+uuid: 8154c7f8-488d-4191-8b01-0c31929ebe0b
+langcode: en
+status: true
+dependencies: {  }
+name: news_banner_800x400_
+label: 'News Banner (800x400)'
+effects:
+  a321ed28-649c-4735-8d04-32d8a398da0c:
+    uuid: a321ed28-649c-4735-8d04-32d8a398da0c
+    id: image_resize
+    weight: 1
+    data:
+      width: 800
+      height: 400

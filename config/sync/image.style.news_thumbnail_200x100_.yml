@@ -1,0 +1,14 @@
+uuid: c1ce9018-a6a5-4549-bc00-791fcc745514
+langcode: en
+status: true
+dependencies: {  }
+name: news_thumbnail_200x100_
+label: 'News Thumbnail (200x100)'
+effects:
+  2a94c79d-4c04-4956-ab62-4de1d55246be:
+    uuid: 2a94c79d-4c04-4956-ab62-4de1d55246be
+    id: image_resize
+    weight: 1
+    data:
+      width: 200
+      height: 100
