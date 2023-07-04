@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 387bb814-372c-44ec-a486-55bbf461e3e7
+name: Newspedia
+mail: tirupati.singh@innoraft.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

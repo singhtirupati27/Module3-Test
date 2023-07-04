@@ -1,0 +1,47 @@
+uuid: cb4e7abe-3ad2-4943-89d3-541c7606af0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news
+  module:
+    - comment
+    - contextual
+    - devel_generate
+    - field_permissions
+    - file
+    - node
+    - path
+    - system
+    - toolbar
+    - tour
+_core:
+  default_config_hash: NtMgnXp0miNtJhag07NSjwdCm4zpJwhlDFs1HgyL4wI
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer devel_generate'
+  - 'administer url aliases'
+  - 'create field_banner_image'
+  - 'create field_news_summary'
+  - 'create news content'
+  - 'create url aliases'
+  - 'delete own files'
+  - 'delete own news content'
+  - 'edit own comments'
+  - 'edit own field_banner_image'
+  - 'edit own field_news_summary'
+  - 'edit own news content'
+  - 'view field_news_summary'
+  - 'view own field_banner_image'
+  - 'view own field_news_summary'
+  - 'view own unpublished content'
+  - 'view the administration theme'

@@ -1,0 +1,29 @@
+uuid: 7ed3983d-5d5b-49a5-90be-176b17351e42
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.categories
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: bootstrap5_views_block__categories_block_4
+theme: bootstrap5
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:categories-block_4'
+settings:
+  id: 'views_block:categories-block_4'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/news-category/*'
